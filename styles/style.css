@@ -1,4 +1,124 @@
+body {
+    font-family: Manrope, sans-serif;
+    background-color:hsl(210, 46%, 95%);
+    margin: 0;
+}
+
 h1 {
-    color: red;
-    font-size: 100px;
+    color: hsl(179, 62%, 43%);
+    font-family: Manrope, sans-serif;
+    font-size: 25px;
+    font-weight: 700\;
+}
+
+h2 {
+    font-family: Manrope, sans-serif;
+    color: hsl(71, 74%, 54%);
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+h3 {
+    font-size: 15px;
+    font-family: Manrope, sans-serif;
+    color: whitesmoke;
+}
+
+p {
+    font-size: 13px;
+    color:hsl(210, 12%, 68%);
+    font-weight: 500;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    color: hsl(210, 46%, 95%);
+    font-size: 13px;
+}
+
+button {
+    background-color: hsl(71, 74%, 54%);
+    border: none;
+    color: white;
+    padding: 15px 42px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 6px;
+}
+
+
+
+.whitetext {
+    color: white;
+}
+
+.price {
+    color: white;
+    font-size: 25px;
+    font-weight:900;
+}
+
+.month {
+    text-align: center;
+    color: hsl(210, 46%, 95%);
+    margin: 5px;
+    
+}
+
+.container {
+    width:100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat (8, 1fr);
+    grid-template-rows: (8, 1fr);
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.main {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px 10px 0px 0px;
+    grid-column-start: 1;
+    grid-column-end: 8;
+}
+
+.sideleft {
+    background-color: #2AB3B1;
+    padding: 30px;
+    border-radius: 0px 0px 0px 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.sideright {
+
+    background-color: #49BEBD;
+    padding: 30px;
+    border-radius: 0px 0px 10px 0px;
+    grid-column-start: 4;
+    grid-column-end: 8;
+}
+
+.subheading {
+    color: hsl(217, 19%, 35%);
+    font-size: 12px;
+}
+
+.darkgreenbackground {
+    background-color: hsl(179, 62%, 75%);
+
+}
+
+.lightgreenbackground {
+    background-color: hsl(179, 77%, 70%);
+
 }
